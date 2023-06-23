@@ -1,0 +1,8 @@
+[ 2023-06-23 20:54:22,542 ] 187 werkzeug - WARNING -  * Debugger is active!
+[ 2023-06-23 20:54:22,551 ] 187 werkzeug - INFO -  * Debugger PIN: 131-855-303
+[ 2023-06-23 20:54:24,025 ] 187 werkzeug - INFO - 127.0.0.1 - - [23/Jun/2023 20:54:24] "POST /predictdata HTTP/1.1" 200 -
+[ 2023-06-23 20:54:31,551 ] 187 werkzeug - INFO - 127.0.0.1 - - [23/Jun/2023 20:54:31] "POST /predictdata HTTP/1.1" 200 -
+[ 2023-06-23 20:54:38,255 ] 187 werkzeug - INFO - 127.0.0.1 - - [23/Jun/2023 20:54:38] "POST /predictdata HTTP/1.1" 200 -
+[ 2023-06-23 20:54:42,460 ] 187 werkzeug - INFO - 127.0.0.1 - - [23/Jun/2023 20:54:42] "POST /predictdata HTTP/1.1" 200 -
+[ 2023-06-23 20:54:48,698 ] 187 werkzeug - INFO - 127.0.0.1 - - [23/Jun/2023 20:54:48] "POST /predictdata HTTP/1.1" 200 -
+[ 2023-06-23 20:56:47,301 ] 187 werkzeug - INFO -  * Detected change in '/home/chandrahas/Desktop/MLOps project/app.py', reloading

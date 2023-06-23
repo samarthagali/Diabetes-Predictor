@@ -7,7 +7,7 @@ from lightgbm import LGBMClassifier
 
 @dataclass
 class ModelPath:
-        models_path = "/home/chandrahas/Desktop/MLOps project/models/"
+        models_path = "./models/"
         log_reg_path = "LogisticRegression.pkl"
         naive_bayes_path = "NaiveBayes.pkl"
         random_forest_path = "randomForest.pkl"

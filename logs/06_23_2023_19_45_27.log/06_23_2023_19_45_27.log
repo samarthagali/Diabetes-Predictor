@@ -1,0 +1,3 @@
+[ 2023-06-23 19:45:27,293 ] 187 werkzeug - WARNING -  * Debugger is active!
+[ 2023-06-23 19:45:27,302 ] 187 werkzeug - INFO -  * Debugger PIN: 973-032-401
+[ 2023-06-23 19:45:51,479 ] 187 werkzeug - INFO -  * Detected change in '/home/chandrahas/Desktop/MLOps project/app.py', reloading

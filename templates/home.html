@@ -1,0 +1,45 @@
+<html>
+<body>
+    <div class="login">
+       
+   
+       <form action="{{ url_for('predict_datapoint')}}" method="post">
+        <h1>
+            <legend>Predict if Diabetic or not</legend>
+        </h1>
+        
+        <div class="mb-3">
+            <label> Enter the number of pregnancies: <input type="number" name="pregnancies"
+                 place="Number range from 0-10" min="0" max="10"/> </label><br/><br/>
+
+            <label> Enter the number of glucose: <input type="number" name="glucose"
+                place="Number range from 0-10"/> </label><br/><br/>
+
+            <label> Enter the number of bloodPressure: <input type="number" name="bloodPressure"
+                place="Number range from 0-10"/> </label><br/><br/>
+
+            <label> Enter the number of skinThickness: <input type="number" name="skinThickness"
+                place="Number range from 0-10"/> </label><br/><br/>
+            
+            <label> Enter the number of insulin: <input type="number" name="insulin"
+                place="Number range from 0-10"/> </label><br/><br/>
+
+            <label> Enter the number of BMI: <input type="number" name="BMI"
+                place="Number range from 0-10" /> </label><br/><br/>
+            
+            <label> Enter the number of diabetesPedigreeFunction: <input type="number" name="diabetesPedigreeFunction"
+                place="Number range from 0-10" /> </label><br/><br/>
+            
+            <label> Enter the number of age: <input type="number" name="age"
+                place="Number range from 0-10" min="1" max="120" /> </label><br/><br/>
+        </div>
+
+        <div class="mb-3">
+            <input class="btn btn-primary" type="submit" value="Predict your Maths Score" required />
+        </div>
+    </form>
+    <h2>
+       The predicted Math Score is {{results}}
+    </h2>
+   <body>
+</html>

@@ -1,0 +1,15 @@
+[ 2023-06-23 19:50:52,444 ] 187 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.6:5000
+[ 2023-06-23 19:50:52,444 ] 187 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2023-06-23 19:50:52,444 ] 187 werkzeug - INFO -  * Restarting with stat
+[ 2023-06-23 19:50:52,999 ] 187 werkzeug - WARNING -  * Debugger is active!
+[ 2023-06-23 19:50:53,006 ] 187 werkzeug - INFO -  * Debugger PIN: 973-032-401
+[ 2023-06-23 19:54:15,567 ] 187 werkzeug - INFO - 127.0.0.1 - - [23/Jun/2023 19:54:15] "POST /predictdata HTTP/1.1" 200 -
+[ 2023-06-23 19:54:25,550 ] 187 werkzeug - INFO -  * Detected change in '/home/chandrahas/Desktop/MLOps project/app.py', reloading
+[ 2023-06-23 19:54:25,715 ] 187 werkzeug - INFO -  * Restarting with stat
+[ 2023-06-23 19:55:37,086 ] 187 werkzeug - INFO -  * Restarting with stat
+[ 2023-06-23 19:55:40,916 ] 187 werkzeug - INFO -  * Restarting with stat
+[ 2023-06-23 19:55:59,897 ] 187 werkzeug - INFO -  * Restarting with stat
+[ 2023-06-23 19:56:16,783 ] 187 werkzeug - INFO -  * Restarting with stat

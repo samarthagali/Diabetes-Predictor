@@ -8,7 +8,7 @@ html
 }
 
 body{
-  background: linear-gradient(to bottom, yellow, white);
+  background: linear-gradient(to bottom, lightgreen, white);
   background-size: cover;
   background-repeat: no-repeat;
 }

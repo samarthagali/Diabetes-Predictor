@@ -1,0 +1,14 @@
+[ 2023-06-24 07:47:41,398 ] 187 werkzeug - WARNING -  * Debugger is active!
+[ 2023-06-24 07:47:41,407 ] 187 werkzeug - INFO -  * Debugger PIN: 131-699-605
+[ 2023-06-24 07:47:44,779 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Jun/2023 07:47:44] "POST / HTTP/1.1" 200 -
+[ 2023-06-24 07:47:44,795 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Jun/2023 07:47:44] "GET /static/styles/home.css HTTP/1.1" 200 -
+[ 2023-06-24 07:47:44,810 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Jun/2023 07:47:44] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+[ 2023-06-24 07:48:26,375 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Jun/2023 07:48:26] "POST / HTTP/1.1" 200 -
+[ 2023-06-24 07:48:26,388 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Jun/2023 07:48:26] "[36mGET /static/styles/home.css HTTP/1.1[0m" 304 -
+[ 2023-06-24 07:48:26,397 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Jun/2023 07:48:26] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+[ 2023-06-24 07:48:31,003 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Jun/2023 07:48:31] "POST / HTTP/1.1" 200 -
+[ 2023-06-24 07:48:31,020 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Jun/2023 07:48:31] "[36mGET /static/styles/home.css HTTP/1.1[0m" 304 -
+[ 2023-06-24 07:48:31,027 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Jun/2023 07:48:31] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+[ 2023-06-24 07:48:39,104 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Jun/2023 07:48:39] "POST / HTTP/1.1" 200 -
+[ 2023-06-24 07:48:39,117 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Jun/2023 07:48:39] "[36mGET /static/styles/home.css HTTP/1.1[0m" 304 -
+[ 2023-06-24 07:48:39,125 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Jun/2023 07:48:39] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -

@@ -1,0 +1,35 @@
+[ 2023-06-24 07:17:52,224 ] 187 werkzeug - WARNING -  * Debugger is active!
+[ 2023-06-24 07:17:52,234 ] 187 werkzeug - INFO -  * Debugger PIN: 131-699-605
+[ 2023-06-24 07:17:55,336 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Jun/2023 07:17:55] "POST / HTTP/1.1" 200 -
+[ 2023-06-24 07:17:55,349 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Jun/2023 07:17:55] "[36mGET /static/styles/home.css HTTP/1.1[0m" 304 -
+[ 2023-06-24 07:17:55,357 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Jun/2023 07:17:55] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+[ 2023-06-24 07:17:55,705 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Jun/2023 07:17:55] "GET / HTTP/1.1" 200 -
+[ 2023-06-24 07:17:55,726 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Jun/2023 07:17:55] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+[ 2023-06-24 07:17:56,461 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Jun/2023 07:17:56] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+[ 2023-06-24 07:18:19,117 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Jun/2023 07:18:19] "POST / HTTP/1.1" 200 -
+[ 2023-06-24 07:18:19,129 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Jun/2023 07:18:19] "[36mGET /static/styles/home.css HTTP/1.1[0m" 304 -
+[ 2023-06-24 07:18:19,137 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Jun/2023 07:18:19] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+[ 2023-06-24 07:18:28,958 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Jun/2023 07:18:28] "POST / HTTP/1.1" 200 -
+[ 2023-06-24 07:18:28,969 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Jun/2023 07:18:28] "[36mGET /static/styles/home.css HTTP/1.1[0m" 304 -
+[ 2023-06-24 07:18:28,979 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Jun/2023 07:18:28] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+[ 2023-06-24 07:18:31,988 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Jun/2023 07:18:31] "GET / HTTP/1.1" 200 -
+[ 2023-06-24 07:18:32,006 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Jun/2023 07:18:32] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+[ 2023-06-24 07:18:41,406 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Jun/2023 07:18:41] "POST / HTTP/1.1" 200 -
+[ 2023-06-24 07:18:41,414 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Jun/2023 07:18:41] "[36mGET /static/styles/home.css HTTP/1.1[0m" 304 -
+[ 2023-06-24 07:18:41,421 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Jun/2023 07:18:41] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+[ 2023-06-24 07:19:24,014 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Jun/2023 07:19:24] "POST / HTTP/1.1" 200 -
+[ 2023-06-24 07:19:24,026 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Jun/2023 07:19:24] "GET /static/styles/home.css HTTP/1.1" 200 -
+[ 2023-06-24 07:19:24,034 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Jun/2023 07:19:24] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+[ 2023-06-24 07:19:31,348 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Jun/2023 07:19:31] "POST / HTTP/1.1" 200 -
+[ 2023-06-24 07:19:31,356 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Jun/2023 07:19:31] "GET /static/styles/home.css HTTP/1.1" 200 -
+[ 2023-06-24 07:19:31,364 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Jun/2023 07:19:31] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+[ 2023-06-24 07:19:44,821 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Jun/2023 07:19:44] "POST / HTTP/1.1" 200 -
+[ 2023-06-24 07:19:44,831 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Jun/2023 07:19:44] "[36mGET /static/styles/home.css HTTP/1.1[0m" 304 -
+[ 2023-06-24 07:19:44,843 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Jun/2023 07:19:44] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+[ 2023-06-24 07:19:47,866 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Jun/2023 07:19:47] "POST / HTTP/1.1" 200 -
+[ 2023-06-24 07:19:47,876 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Jun/2023 07:19:47] "GET /static/styles/home.css HTTP/1.1" 200 -
+[ 2023-06-24 07:19:47,889 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Jun/2023 07:19:47] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+[ 2023-06-24 07:19:54,940 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Jun/2023 07:19:54] "POST / HTTP/1.1" 200 -
+[ 2023-06-24 07:19:54,947 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Jun/2023 07:19:54] "GET /static/styles/home.css HTTP/1.1" 200 -
+[ 2023-06-24 07:19:54,961 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Jun/2023 07:19:54] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+[ 2023-06-24 07:20:19,438 ] 187 werkzeug - INFO -  * Detected change in '/home/chandrahas/Desktop/MLOps project/app.py', reloading

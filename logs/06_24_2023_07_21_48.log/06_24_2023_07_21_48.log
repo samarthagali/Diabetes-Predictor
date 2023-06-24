@@ -1,0 +1,6 @@
+[ 2023-06-24 07:21:48,632 ] 187 werkzeug - WARNING -  * Debugger is active!
+[ 2023-06-24 07:21:48,640 ] 187 werkzeug - INFO -  * Debugger PIN: 131-699-605
+[ 2023-06-24 07:21:49,072 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Jun/2023 07:21:49] "POST / HTTP/1.1" 200 -
+[ 2023-06-24 07:21:49,081 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Jun/2023 07:21:49] "[36mGET /static/styles/home.css HTTP/1.1[0m" 304 -
+[ 2023-06-24 07:21:49,089 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Jun/2023 07:21:49] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+[ 2023-06-24 07:21:53,692 ] 187 werkzeug - INFO -  * Detected change in '/home/chandrahas/Desktop/MLOps project/app.py', reloading

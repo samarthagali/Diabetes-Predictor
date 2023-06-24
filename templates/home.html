@@ -1,45 +1,62 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/home.css') }}">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+</head>
 <body>
-    <div class="login">
+   <div>
        
-   
+       <div class="heading">
+       <h1>
+           <b><u><legend>Diabetic Prediction</legend></u></b>
+       </h1>
+    </div>
        <form action="{{ url_for('predict_datapoint')}}" method="post">
-        <h1>
-            <legend>Predict if Diabetic or not</legend>
-        </h1>
+        <br/>
         
-        <div class="mb-3">
-            <label> Enter the number of pregnancies: <input type="number" name="pregnancies"
-                 place="Number range from 0-10" min="0" max="10"/> </label><br/><br/>
+        <div class="container">
+            <div class="column">
+            <div class='underline column'> <label> Pregnancies &emsp;<input type="number" name="pregnancies"
+                 placeholder="0-17" required min="0" max="17"/> </label></div>
 
-            <label> Enter the number of glucose: <input type="number" name="glucose"
-                place="Number range from 0-10"/> </label><br/><br/>
+            <div class='underline column'> <label> Glucose &emsp; <input type="number" name="glucose" min="0" max="199"
+                placeholder="0-199" required/> </label><br/><br/></div>
 
-            <label> Enter the number of bloodPressure: <input type="number" name="bloodPressure"
-                place="Number range from 0-10"/> </label><br/><br/>
+            <div class='underline'> <label> BP &emsp; <input type="number" name="bloodPressure" min="0" max="122"
+                placeholder="0-122" required/> </label><br/><br/></div>
 
-            <label> Enter the number of skinThickness: <input type="number" name="skinThickness"
-                place="Number range from 0-10"/> </label><br/><br/>
+            <div class='underline   '> <label> Skin Thickness &emsp; <input type="number" name="skinThickness" min="0" max="110"
+                placeholder="0-110" required/> </label></div>
+            </div>
+
+            <div class="column">
+            <div class='underline column'> <label> Insulin &emsp; <input type="number" name="insulin" min="0" max="744"
+                placeholder="0-744" required/> </label> </div>
+
+            <div class='underline column'> <label> BMI &emsp; <input type="number" name="BMI" min="0" max="81" step="0.1"
+                placeholder="0-81" required /> </label></div>
             
-            <label> Enter the number of insulin: <input type="number" name="insulin"
-                place="Number range from 0-10"/> </label><br/><br/>
-
-            <label> Enter the number of BMI: <input type="number" name="BMI"
-                place="Number range from 0-10" /> </label><br/><br/>
+            <div class='underline column'> <label> Pedigree Function &emsp; <input type="number" name="diabetesPedigreeFunction" min="0.01"
+                max="3" step="0.01" placeholder="0-3" required /> </label></div>
             
-            <label> Enter the number of diabetesPedigreeFunction: <input type="number" name="diabetesPedigreeFunction"
-                place="Number range from 0-10" /> </label><br/><br/>
-            
-            <label> Enter the number of age: <input type="number" name="age"
-                place="Number range from 0-10" min="1" max="120" /> </label><br/><br/>
+            <div class='underline column'> <label> age &emsp; <input type="number" name="age" min="21" max="81"
+                placeholder="21-81" required min="1" max="120" /> </label></div>
+        </div>
         </div>
 
-        <div class="mb-3">
-            <input class="btn btn-primary" type="submit" value="Predict your Maths Score" required />
+        <div class="submit">
+            <input type="submit" style="font-size:50px; background-color: aqua;" value="Prediction" required />
         </div>
-    </form>
+    </form> <br/><br/>
+    <div class="heading table">
+        {{ table|safe }}
+    </div> <br/><br/>
     <h2>
-       Prediction: {{results}}
+        Prediction: &emsp; <span style="font-size: 40px;">{{results}} </span>
     </h2>
    <body>
 </html>

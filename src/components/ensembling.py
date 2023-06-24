@@ -19,7 +19,6 @@ class Ensemble:
         self.path = ModelPath()
         self.ensemble = []
         self.data = data
-        print(os.getcwd())
 
     def logisticRegression(self):
          log_reg = pickle.load(open(self.path.models_path + self.path.log_reg_path, 'rb'))

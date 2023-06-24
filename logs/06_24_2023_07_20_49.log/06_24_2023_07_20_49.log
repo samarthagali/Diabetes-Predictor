@@ -1,0 +1,14 @@
+[ 2023-06-24 07:20:49,265 ] 187 werkzeug - WARNING -  * Debugger is active!
+[ 2023-06-24 07:20:49,274 ] 187 werkzeug - INFO -  * Debugger PIN: 131-699-605
+[ 2023-06-24 07:21:02,412 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Jun/2023 07:21:02] "POST / HTTP/1.1" 200 -
+[ 2023-06-24 07:21:02,424 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Jun/2023 07:21:02] "[36mGET /static/styles/home.css HTTP/1.1[0m" 304 -
+[ 2023-06-24 07:21:02,432 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Jun/2023 07:21:02] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+[ 2023-06-24 07:21:05,605 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Jun/2023 07:21:05] "GET / HTTP/1.1" 200 -
+[ 2023-06-24 07:21:05,623 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Jun/2023 07:21:05] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+[ 2023-06-24 07:21:07,241 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Jun/2023 07:21:07] "GET / HTTP/1.1" 200 -
+[ 2023-06-24 07:21:07,252 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Jun/2023 07:21:07] "[36mGET /static/styles/home.css HTTP/1.1[0m" 304 -
+[ 2023-06-24 07:21:07,261 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Jun/2023 07:21:07] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+[ 2023-06-24 07:21:17,533 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Jun/2023 07:21:17] "POST / HTTP/1.1" 200 -
+[ 2023-06-24 07:21:17,547 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Jun/2023 07:21:17] "[36mGET /static/styles/home.css HTTP/1.1[0m" 304 -
+[ 2023-06-24 07:21:17,554 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Jun/2023 07:21:17] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+[ 2023-06-24 07:21:47,765 ] 187 werkzeug - INFO -  * Detected change in '/home/chandrahas/Desktop/MLOps project/app.py', reloading
